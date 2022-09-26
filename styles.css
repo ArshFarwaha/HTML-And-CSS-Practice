@@ -168,7 +168,7 @@ p {
 .plan__wrapper {
   margin: 0 auto;
   border-radius: 16px;
-  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 20px 60px 10px rgba(0, 0, 0, 0.15);
 }
 
 .plan {
@@ -178,7 +178,7 @@ p {
 
 .plan__info {
   font-size: 24px;
-  padding: 24px 128px;
+  padding: 24px 120px;
 }
 
 .plan__features {
@@ -192,14 +192,16 @@ p {
 }
 
 .plan__action {
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding: 24px;
+  padding: 32px;
 }
 
 .btn__buynow {
-  width: 50%;
-  height: 32px;
+  width: 75%;
+  height: 6vh;
+  font-size: 16px;
   border-radius: 50px;
   color: #f7fafc;
   background-color: #6415ff;
